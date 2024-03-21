@@ -15,6 +15,11 @@ const AddValue = () => {
   // counter = counter + 1
   if (counter <= 19) {
     setCounter(counter + 1)
+    // this question important for interview and also you understand how to increase in one click multiple value
+  //   setCounter((prevCounter) => prevCounter + 1)
+  //   setCounter(prevCounter => prevCounter + 1)
+  //   setCounter(prevCounter => prevCounter + 1)
+  //   setCounter(prevCounter => prevCounter + 1)
   }
   
 }
